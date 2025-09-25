@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.net.URI;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/course")
 public class CourseController {
     private final CourseRepository repo;
     public CourseController(CourseRepository repo) { this.repo = repo; }
